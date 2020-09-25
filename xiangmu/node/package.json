@@ -1,0 +1,33 @@
+{
+  "name": "myadminapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "supervisor ./bin/www"
+  },
+  "dependencies": {
+    "@alicloud/pop-core": "^1.7.9",
+    "axios": "^0.20.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-session": "^1.17.1",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "mongoose": "^5.9.27",
+    "morgan": "~1.9.1",
+    "node-uuid": "^1.4.8",
+    "node-xlsx": "^0.15.0",
+    "qrcode": "^1.4.4",
+    "randomstring": "^1.1.5",
+    "xml-js": "^1.6.11"
+  },
+  "apidoc": {
+    "url": "http://localhost:3000/",
+    "title": "sh2007 接口文档"
+  }
+}

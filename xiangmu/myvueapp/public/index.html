@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_2011846_fn3rtyfy8z.css">
+    <!-- 客服需要引入的 然后在对应需要的页面写-->
+    <script type='text/javascript'>
+      (function(a, b, c, d, e, j, s) {
+          a[d] = a[d] || function() {
+              (a[d].a = a[d].a || []).push(arguments)
+          };
+          j = b.createElement(c),
+              s = b.getElementsByTagName(c)[0];
+          j.async = true;
+          j.charset = 'UTF-8';
+          j.src = 'https://static.meiqia.com/widget/loader.js';
+          s.parentNode.insertBefore(j, s);
+      })(window, document, 'script', '_MEIQIA');
+      _MEIQIA('entId', 10783);
+      _MEIQIA('manualInit'); 
+
+      window._MEIQIA = _MEIQIA
+  </script>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
